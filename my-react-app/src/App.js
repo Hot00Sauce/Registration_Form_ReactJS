@@ -1,14 +1,14 @@
-import './App.css';
-import reportWebVitals from './reportWebVitals';
-import Header from './Header';
+import Card from './Card';
+import Button from './Button';
 
 function App() {
   return (
     <>
-    <Header/>
-    <div className="App">
-      <h1>Hello world!</h1>
-          </div>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Button/>
     </>
   );
 }
