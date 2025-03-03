@@ -15,7 +15,7 @@ function Student(props) {
 Student.propTypes = {
     name: PropTypes.string,
     age: PropTypes.number,
-    isstudent: PropTypes.bool,
+    isStudent: PropTypes.bool,
 }
 
 Student.defaultTypes = {
